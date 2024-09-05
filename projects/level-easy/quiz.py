@@ -30,4 +30,4 @@ if answer.lower() == "brasilia".replace(" ", ""):
     score += 1
     print("Your score is", score)
 else:
-    print("Incorrect!") 
+    print("Incorrect!")
