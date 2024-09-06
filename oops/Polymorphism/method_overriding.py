@@ -1,6 +1,7 @@
 class shape():
     def area(self):
-        return "The area of the shape"
+        pass
+       
 
 class rectangle(shape):
     def __init__(self,height,width):
@@ -21,7 +22,7 @@ def area_c(shape):
     print(f"the area is {shape.area()}")
 
 rectangle = rectangle(3,4)
-circle = circle(4)
+circle = circle(9)
 
 area_c(rectangle)
 area_c(circle)
